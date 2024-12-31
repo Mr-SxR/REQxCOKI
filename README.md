@@ -1,5 +1,12 @@
 # Installation
-
+```
+pkg update && pkg upgrade
+pkg install python
+pkg install bash
+pkg install git
+pip install requests
+pip install pycryptodome
+```
 ```
 cd $HOME
 rm -rf REQxCOKI
