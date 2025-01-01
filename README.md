@@ -1,10 +1,11 @@
 # Installation
 - **Set-up**
 ```
-pkg update && pkg upgrade
-pkg install python
-pkg install bash
-pkg install git
+pkg update -y && pkg upgrade -y
+pkg install git -y
+pkg install python -y
+pip install requests
+pip install pycryptodome
 ```
 - **Tool**
 ```
