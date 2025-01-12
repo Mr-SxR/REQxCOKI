@@ -1,6 +1,11 @@
+# REQxCOKI
+**Facebook cookie extract and file converter tools**
+
+**Developer**: Mr.SxR  
+**Facebook**: Masudur Rahman Sifat
 # Installation
 - **Set-up**
-```
+```Bash
 pkg update -y && pkg upgrade -y
 pkg install git -y
 pkg install python -y
@@ -8,7 +13,7 @@ pip install requests
 pip install pycryptodome
 ```
 - **Tool**
-```
+```Bash
 cd $HOME
 rm -rf REQxCOKI
 git clone --depth=1 https://github.com/Mr-SxR/REQxCOKI.git
