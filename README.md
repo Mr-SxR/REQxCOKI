@@ -10,7 +10,7 @@ pkg update -y && pkg upgrade -y
 pkg install git -y
 pkg install python -y
 pip install requests
-pip install pycryptodome
+pip install xlsxwriter
 ```
 - **Tool**
 ```Bash
